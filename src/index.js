@@ -36,7 +36,7 @@ class Sorter {
 		  }
 		  result.sort();
 		  for(val of indices){
-			this.arr[val]=result[val];
+			this.arr[val]=result.shift();
 		  }
 		  return  this.arr;
 
